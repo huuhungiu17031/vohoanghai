@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Recursive", sans-serif;
+}
+.avatar img {
+  width: 80%;
+}
+.navbar > a {
+  padding: 5px;
+  text-decoration: none;
+  border-radius:20px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.navbar > a:hover {
+  border: 1px solid rgb(219, 163, 113);
+}
+.detail-infor {
+  background-color: rgb(245, 245, 245);
+}
+.resume-element {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.resume .resume-element:nth-child(2) {
+  padding: 10px;
+  background-color: rgb(53, 106, 183);
+  color: white !important;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  left: 0;
+  justify-content: space-around;
+  background-color: white;
+}
+.container_top {
+  margin-top: 100px !important;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: rgb(219, 163, 113) !important;
+}
+
+.section {
+  position: relative;
+  background-image: url("image/pexel_2.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+}
+
+.list_item {
+  background-color: rgb(251, 251, 251);
+  padding: 10px 0;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6));
+}
+
+.sign_in_button {
+  border: 1px solid rgb(219, 163, 113);
+  color: rgb(219, 163, 113);
+  font-weight: bold;
+}
+
+.form_sign_up {
+  width: 70%;
+  margin: 20px auto;
+}
+/* .card {
+        border: none;
+    } */
+
+.card {
+  transition: all 1s;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+}
+
+.title_image {
+  height: 300px;
+}
+
+.title_container {
+  height: 90%;
+  padding: 70px 0;
+}
+
+.title_container > h4 {
+  font-weight: bolder;
+}
+
+.title_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.selfie_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.tesmonials {
+  /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+  margin: 20px 0;
+  padding: 20px 0;
+  background-color: rgb(251, 251, 251);
+  height: 50vh;
+}
+
+.tesmonials h1 {
+  margin-bottom: 50px;
+}
+
+.sign_up {
+  position: relative;
+  background-image: url("image/pexel_2.jpg");
+  width: 100%;
+  height: 60vh;
+  background-position: center center;
+}
+
+.overlay_signup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6));
+}
+
+.sign_up_content {
+  width: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.sign_up_content > h4 {
+  font-weight: bold;
+}
+/* width */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: rgb(219, 166, 131);
+}
+
+@media only screen and (max-width: 600px) {
+  .special_case {
+    flex-direction: column-reverse;
+  }
+  .sign_up_button {
+    margin-top: 10px;
+    height: 40px;
+  }
+}
